@@ -1240,9 +1240,9 @@ void register_scene_types() {
 	ClassDB::add_compatibility_class("ShortCut", "Shortcut");
 	ClassDB::add_compatibility_class("Skeleton", "Skeleton3D");
 	ClassDB::add_compatibility_class("SkeletonIK", "SkeletonIK3D");
-	ClassDB::add_compatibility_class("Spatial", "Node3D");
-	ClassDB::add_compatibility_class("SpatialGizmo", "Node3DGizmo");
-	ClassDB::add_compatibility_class("SpatialMaterial", "StandardMaterial3D");
+	// ClassDB::add_compatibility_class("Spatial", "Node3D");
+	// ClassDB::add_compatibility_class("SpatialGizmo", "Node3DGizmo");
+	// ClassDB::add_compatibility_class("SpatialMaterial", "StandardMaterial3D");
 	ClassDB::add_compatibility_class("SpotLight", "SpotLight3D");
 	ClassDB::add_compatibility_class("Sprite", "Sprite2D");
 	ClassDB::add_compatibility_class("StaticBody", "StaticBody3D");
@@ -1278,8 +1278,8 @@ void register_scene_types() {
 	ClassDB::add_compatibility_class("CPUParticles", "CPUParticles3D");
 	ClassDB::add_compatibility_class("CylinderShape", "CylinderShape3D");
 	ClassDB::add_compatibility_class("DirectionalLight", "DirectionalLight3D");
-	ClassDB::add_compatibility_class("EditorSpatialGizmo", "EditorNode3DGizmo");
-	ClassDB::add_compatibility_class("EditorSpatialGizmoPlugin", "EditorNode3DGizmoPlugin");
+	// ClassDB::add_compatibility_class("EditorSpatialGizmo", "EditorNode3DGizmo");
+	// ClassDB::add_compatibility_class("EditorSpatialGizmoPlugin", "EditorNode3DGizmoPlugin");
 	ClassDB::add_compatibility_class("Generic6DOFJoint", "Generic6DOFJoint3D");
 	ClassDB::add_compatibility_class("HeightMapShape", "HeightMapShape3D");
 	ClassDB::add_compatibility_class("HingeJoint", "HingeJoint3D");
